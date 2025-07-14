@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "XdK9w3nF0h7LQzb-k",
+      });
+   })();
+</script>
+</head>
+<body>
+    <nav>
+        <div class="nav_left">PRITAM KAR</div>
+        <div class="nav_list" id="myNavMenu">
+            <ul class="list">
+                <li>
+                     <a href="#hero" class="nav-link active-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li>
+                     <a href="#projects" class="nav-link active-link">project</a>
+                    <div class="circle"></div>
+                </li>
+                <li>
+                     <a href="#aboutme" class="nav-link active-link">About</a>
+                    <div class="circle"></div>
+                </li>
+                <li>
+                     <a href="#contact" class="nav-link active-link">Contact</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="download_btn">
+            <a href="resume2.pdf" download="resume2.pdf">
+               <button>Download cv<div class="file"></div></a> <i class="fa-regular fa-file-lines"></i>
+            </button>
+             <div class="nav-menu-btn">
+                <i class="uil uil-bar" onclick="myMenuFunction()"></i>
+            </div>
+        </div>
+    </nav>
+    <section id="hero">
+        <div class="hero_left">
+            <div class="hero_left_box">
+                <span class="box">PRITAM KAR</span>
+                <br><br>
+                <h1 class="featured-name">I'M</h1>
+                <br>
+                <h1  class="featured-name" id="course"><span class="typedText"></span></h1>
+                <br>
+                <p  class="featured-text-info">and a full stack web developer with a huge experience of making stunning user friendly websites for
+                    clients</p>
+                <div class="btn_grp">
+                    <button id="hire"><a class="hireme"   href="#contact">Hire me</a></button>
+                    <div class="btn">
+                        <button><a class="resume" href="resume2.pdf">
+                            Download cv
+                            <i class="fa-regular fa-file-lines"></i></a></button>
+                    </div>
+                </div>
+                <div class="socialm">
+                   <button type="submit" class="fst"><a href="https://www.instagram.com/pritam_kar_234?igsh=d3dvdGVtOTgyN2Nq&utm_source=ig_contact_invite"><i class="fa-brands fa-instagram"></i></a></button>             
+                    <button type="submit" class="sst"><a href="http://linkedin.com/in/pritam-kar-350b35320"><i class="fa-brands fa-linkedin-in"></i></a></button>
+                    <button type="submit" class="tst"><a href="https://www.facebook.com/share/15oYjU42SC/?mibextid=wwXIfr"><i class="fa-brands fa-facebook"></i></a></button>
+                    <button type="submit" class="ost"><a href="https://www.threads.com/@pritam_kar_234?invite=0"><i class="fa-brands fa-threads"></i></a></button>
+                    
+                </div>
+                        
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero_right">
+            <div class="hero_img"></div>
+        </div>
+<!-- ---------------------------------------  ABOUT ME BOX-------------------------------- -->
+    </section>
+    <section class="section" id="aboutme">
+        <div class="heading">
+            <div class="header">ABOUT ME</div>
+        </div>
+        <div class="contain1">
+            <div class="ableft">
+                <div class="container">
+                    <div class="intro">My Introduction</div>
+                    <div class="desc">I'm Well Versed in HTML , CSS , JS and other cutting edge and demanind frameworks
+                        and libraries,which allow me to implement interractive features. i've experience working with
+                        content management system (CMS) like Wordpress.</div>
+                    <div class="cv">
+                        <div class="lg1"><i class="fa-regular fa-file-lines"></i></div>
+                         <a href="resume2.pdf" download="resume2.pdf">
+                        <div class="lg2">Download CV</div></a>
+                    </div>
+                </div>
+            </div>
+            <div class="abright">
+                <div class="data">
+                    <div class="class1">
+                        <div class="h">
+                            Frontend
+                        </div>
+                        <div class="tail">
+                            <div class="qualityx">HTML</div>
+                            <div class="qualityx">CSS</div>
+                            <div class="qualityx">Bootstrap</div>
+                            <div class="qualityx">Tailwind CSS</div>
+                            <div class="qualityx">Javascript</div>
+                            <div class="qualityx">React</div>
+                            <div class="qualityx">Redux</div>
+                        </div>
+
+                    </div>
+                    <div class="class2">
+                        <div class="h2">
+                            Backend
+                        </div>
+                        <div class="tail2">
+                            <div class="quality">Node JS</div>
+                            <div class="quality">Express JS</div>
+                            <div class="quality">JAVA</div>
+                        </div>
+
+                    </div>
+                    <div class="class3">
+                        <div class="h3">Database</div>
+                        <div class="tail3">
+                            <div class="quality3">My SQL</div>
+                            <div class="quality4">SQL</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- ------------------------- PROJECTS ------------------------------------ -->
+  <section class="section" id="projects">
+            <div class="prohead">
+                <div class="header">Projects</div>
+            </div>
+            <div class="protail">
+                <div class="tailchild1">
+                    <div class="conn">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <h5>Completed</h5>
+                           <p>5+ Finished Projects</p>
+                    </div>
+                </div>
+                <div class="tailchild2">
+                    <div class="conn2">
+                        <i class="fa-solid fa-people-group"></i>
+                        <h5>Clients</h5>
+                        <p>3 Happy clients</p>
+                    </div>
+                </div>
+                <div class="tailchild3">
+                    <div class="conn3">
+                        <i class="fa-solid fa-people-group"></i>
+                        <h5>Experience</h5>
+                        <p>2+ Year in this field</p>
+                    </div>
+                </div>
+            </div>
+  </section>
+  <!-- --------------------------------- CONTACTS --------------------------------- -->
+  <section class="section" id="contact">
+    <div class="conhead">
+        <div class="part1"> Get in touch</div>
+        <div class="part2">Do you have a project in your mind , contact me here</div>
+    </div>
+    <div class="conmid">
+        <div class="leftcon">
+            <div class="info">
+                <div class="bigbox">
+                    <p>FIND ME <i class="fa-solid fa-arrow-turn-down"></i></p>
+                    <p><i class="fa-solid fa-envelope"></i> Email:kumarpritam2431@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> Tel:+91-9348990615</p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="rightcon">
+            <form action="" id="myform">
+            <div class="ostinf">
+            <div class="names">
+                <input type="text" placeholder="Name" class="inp">
+            </div>
+            <div class="mail">
+                <input type="text"  placeholder="email" class="inp">
+            </div>
+            </div> 
+            <div class="sndinf">
+            <div class="mess"><input type="text" placeholder="Message" class="inputmes">
+            </div>
+            <div class="send">
+                <button  type="submit" onclick="sendmail()" class="detail">SEND </button>
+                <i class="fa-solid fa-paper-plane"></i>
+            </div>
+            </div>
+            </form>
+        </div> 
+    </div>
+    <div class="last">
+        <div class="line1">
+            <div class="myname"> 
+                Pritam Kar
+            </div>
+        </div>
+        <div class="line2">
+            <ul class="list">
+                <a href="#hero" class="nav-link active-link">Home</a>
+               <a href="#projects" class="nav-link active-link">project</a>
+               <a href="#aboutme" class="nav-link active-link">About</a>
+               <a href="#contact" class="nav-link active-link">contact</a>
+              
+            </ul>
+        </div>
+        <div class="line3">
+                    <button type="submit" class="fst1"><a href="https://www.instagram.com/pritam_kar_234?igsh=d3dvdGVtOTgyN2Nq&utm_source=ig_contact_invite"><i class="fa-brands fa-instagram"></i></a></button>             
+                    <button type="submit" class="sst1"><a href="http://linkedin.com/in/pritam-kar-350b35320"><i class="fa-brands fa-linkedin-in"></i></a></button>
+                    <button type="submit" class="tst1"><a href="https://www.facebook.com/share/15oYjU42SC/?mibextid=wwXIfr"><i class="fa-brands fa-facebook"></i></a></button>
+                    <button type="submit" class="ost1"><a href="https://www.threads.com/@pritam_kar_234?invite=0"><i class="fa-brands fa-threads"></i></a></button>
+                    
+        </div>
+    </div>
+  </section>
+   <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- ----- MAIN JS ----- -->
+    <script src="./portfolio.js"></script>
+</body>
+
+</html>
